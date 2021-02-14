@@ -1,0 +1,15 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+{
+	"name": "Game of Life - React Dev",
+	"image": "docker.io/library/node:lts-buster",
+
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	"extensions": [
+		"dbaeumer.vscode-eslint"
+	],
+
+	"forwardPorts": [3000],
+}
